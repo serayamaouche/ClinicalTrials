@@ -42,7 +42,8 @@ head(CT_USA)
 
 
 # Extract the address columns (City, State, and Country), zip code is only provided by some.
-addr <- CT_USA[CT_USA(2, 3, 5)]
+#addr <- CT_USA[CT_USA(2, 3, 5)]
+addr  <- CT_USA[,c(2,3,5)]
 addr$address <- paste(addr$address.city, addr$address.state, addr$address.country,sep=",")
 
 # Sumarize the results with a frequency (cities with more than one clinical trial)
