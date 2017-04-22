@@ -15,6 +15,17 @@ install.packages("devtools")
 library(devtools)
 install_github("sachsmc/rclinicaltrials")
 
+# Required packages for visualization
+library(maps)
+library(proto)
+library(RgoogleMaps)
+library(png)
+library(mapproj)
+library(jpeg)
+library(geosphere)
+library(ggmap)
+
+
 # Load rclinicaltrials
 library(rclinicaltrials)
 library(ggplot2)
