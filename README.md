@@ -53,6 +53,10 @@ clinicaltrials_count(query = 'breast cancer AND France')
 * [CRAN - Package rclinicaltrials](https://cran.r-project.org/web/packages/rclinicaltrials/index.html)
 * [rclinicaltrials on Github](https://github.com/sachsmc/rclinicaltrials)
 * [Clinical Trials Data Visualization in Maps using R](http://rstudio-pubs-static.s3.amazonaws.com/209130_403f02103baa43aa8b5caa25daa4db57.html)
+* [clinicaltrials.gov](https://clinicaltrials.gov/)
+* [clinicaltrials.gov API](https://clinicaltrials.gov/ct2/info/linking)
+    
+
 
 
 
