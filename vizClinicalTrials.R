@@ -78,6 +78,14 @@ dataset <- merge(addr, geocode,by="address")  # to use for heatmaps
       
 # Download the map image for the United States using the get_map() function from the ggmap package 
 # Here the packages ggplot2 and ggmap will be used
+# ggplot2 is used to add the circles representing the number of studies by location (color and size)
 map <-get_map(location='united states', zoom=4, maptype = "terrain",
              source='google',color='color', force=TRUE)
       
+# ** Plot the density by location map for breast cancer clinical trials      
+ggmap(map) + geom_point(
+  aes(x=lon, y=lat, show_guide = TRUE, colour=freq), 
+  data=aggregatedFreq, alpha=.5, na.rm = T, size = aggregatedFreq$freq*0.8)  + 
+  scale_color_gradient(low="green", high="red")
+      
+ # ** Plot the heatmap for Breast Cancer clinical trials     
