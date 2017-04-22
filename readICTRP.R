@@ -3,7 +3,7 @@
 # Date of creation: 17 Feb 2016
 # Date of last modification: 24 Feb 2016
 # Author: Seraya Maouche <seraya.maouche@iscb.org>
-# Project: Epidemium BD4Cancer (http://bd4cancer.tbiscientific.com)
+# Project: BD4Cancer (http://bd4cancer.tbiscientific.com)
 # Short Description: This script provides functionalities to read and parse clinical
                      # trial downloaded from WHO ICTRP Clinical Trial Registry
 #++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
