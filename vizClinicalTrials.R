@@ -37,3 +37,19 @@ res <- clinicaltrials_download(query = c('term=breast AND cancer','recr=Open', '
 location <- res[1]$study_information$locations
 CT_USA <- location[which(location$address.country=='United States'), ]
 head(CT_USA)
+
+
+# Extract the address columns (City, State, and Country), zip code is only provided by some.
+addr <- CT_USA[CT_USA(2, 3, 5)]
+addr$address <- paste(addr$address.city, addr$address.state, addr$address.country,sep=",")
+
+# Sumarize the results with a frequency (cities with more than one clinical trial)
+library(plyr)
+ResWithFreq <- count(addr, 'address')
+# Sort assending
+ResWithFreq <- ResWithFreq[order(-ResWithFreq$freq),]
+
+# Top occurence 20 results from the search
+head(ResWithFreq, 20)
+
+
