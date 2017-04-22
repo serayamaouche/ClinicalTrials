@@ -30,3 +30,10 @@ library(ggmap)
 library(rclinicaltrials)
 library(ggplot2)
 library(dplyr)
+
+res <- clinicaltrials_download(query = c('term=breast AND cancer','recr=Open', 'type=Intr', 'cntry1=NA%3AUS'), count = 200, include_results = TRUE)
+
+# Extract all the locations in the USA
+location <- res[1]$study_information$locations
+CT_USA <- location[which(location$address.country=='United States'), ]
+head(CT_USA)
