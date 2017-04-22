@@ -55,6 +55,8 @@ clinicaltrials_count(query = 'breast cancer AND France')
 * [Clinical Trials Data Visualization in Maps using R](http://rstudio-pubs-static.s3.amazonaws.com/209130_403f02103baa43aa8b5caa25daa4db57.html)
 * [clinicaltrials.gov](https://clinicaltrials.gov/)
 * [clinicaltrials.gov API](https://clinicaltrials.gov/ct2/info/linking)
+* [Creating heatmaps in R with ggmap](http://www.geo.ut.ee/aasa/LOOM02331/heatmap_in_R.html)
+* [How to GeoCode a simple address using Data Science Toolbox](http://stackoverflow.com/questions/22887833/r-how-to-geocode-a-simple-address-using-data-science-toolbox)
     
 
 
