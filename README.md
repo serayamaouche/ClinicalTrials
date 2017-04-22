@@ -7,7 +7,7 @@ The [rclinicaltrials R package](https://cran.r-project.org/web/packages/rclinica
 The script [clinicalTrialsGov2R.R](https://github.com/serayamaouche/ClinicalTrials/blob/master/clinicalTrialsGov2R.R) provides an example on how to search and download clinical trials.
 
 
-a- Install rclinicaltrials
+1- Install rclinicaltrials
 ```R
 # Install rclinicaltrials package from CRAN
 install.packages("rclinicaltrials")
@@ -18,7 +18,7 @@ library(devtools)
 install_github("sachsmc/rclinicaltrials")
 ```
 
-a- Searching ClinicalTrials.Gov
+2- Searching ClinicalTrials.Gov
 ```R
 res <- clinicaltrials_search(query = "colon cancer", count = 10)
 str(res)
