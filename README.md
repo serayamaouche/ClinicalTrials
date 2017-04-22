@@ -1,6 +1,6 @@
 
 # Searching, downloading, and visualizing clinical trials from ClinialTrials.Gov in R
-By Seraya Maouche
+By Seraya Maouche |
 Latest update : 22 April 2017
 
 The [rclinicaltrials R package](https://cran.r-project.org/web/packages/rclinicaltrials/index.html) provides functions to search, explore, and retrieve data from [ClinicalTrials.Gov](https://clinicaltrials.gov/).
