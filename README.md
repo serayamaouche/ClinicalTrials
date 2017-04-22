@@ -72,6 +72,7 @@ ggplot(cts, aes(x = year, y = cumsum(count), color = Gender)) +
 ### Links
 
 * [CRAN - Package rclinicaltrials](https://cran.r-project.org/web/packages/rclinicaltrials/index.html)
+* [ggmap R Package](https://cran.r-project.org/web/packages/ggmap/index.html)
 * [rclinicaltrials on Github](https://github.com/sachsmc/rclinicaltrials)
 * [Clinical Trials Data Visualization in Maps using R](http://rstudio-pubs-static.s3.amazonaws.com/209130_403f02103baa43aa8b5caa25daa4db57.html)
 * [Clinical Trials Metadata Visualization using R](https://www.linkedin.com/pulse/clinical-trials-data-visualization-using-r-jose-i-rey)
