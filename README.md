@@ -55,7 +55,7 @@ Active, not recruiting              Completed
                      9 
 ```
 
-3 - Visualization ofclinical trial in myocardial infarction
+3 - Visualization of clinical trials in myocardial infarction
 ```R
 ggplot(cts, aes(x = year, y = cumsum(count), color = Gender)) + 
   geom_line() + geom_point() + 
