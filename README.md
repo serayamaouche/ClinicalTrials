@@ -39,6 +39,20 @@ clinicaltrials_count(query = c('recr=Open', 'type=Intr', 'cond=melanoma'))
 # count trials satisfying 'breast cancer AND France'
 clinicaltrials_count(query = 'breast cancer AND France')
 [1] 766
+
+# Exploring the data
+MI <- clinicaltrials_search(query = c("cond=Myocardial infarction", 
+                                       "phase=2", 
+                                       "type=Intr", "rslt=With"), 
+                             count = 10000)
+nrow(MI)
+[1] 40
+table(MI$status.text)
+
+Active, not recruiting              Completed 
+                     1                     30 
+            Terminated 
+                     9 
 ```
 
 
