@@ -58,7 +58,7 @@ Active, not recruiting              Completed
 
 
 <p align="center">
-  <img src="https://github.com/serayamaouche/RGoogle/blob/master/CompareCS.png" width="450"/>
+  <img src="https://github.com/serayamaouche/ClinicalTrials/blob/master/clinicalTrialsMI.png" width="450"/>
 </p>
 
 
