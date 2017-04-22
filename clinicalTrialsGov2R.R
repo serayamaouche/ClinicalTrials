@@ -23,6 +23,7 @@ library(dplyr)
 # Obtaining help
 vignette("basics", "rclinicaltrials")
 clinicaltrials_search()
+? clinicaltrials_search
 
 # The function advanced_search_terms() provides Clinicaltrials.gov advanced search terms. Their keys, 
 #descriptions, and links to help documents.
