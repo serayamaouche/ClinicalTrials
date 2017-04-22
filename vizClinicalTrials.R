@@ -88,4 +88,9 @@ ggmap(map) + geom_point(
   data=aggregatedFreq, alpha=.5, na.rm = T, size = aggregatedFreq$freq*0.8)  + 
   scale_color_gradient(low="green", high="red")
       
- # ** Plot the heatmap for Breast Cancer clinical trials     
+# ** Plot the heatmap for Breast Cancer clinical trials
+# The code below uses geom_density2d and stat_density2d  (ggmap) to plot the density of locations as a heatmap
+ggmap(map) + geom_density2d(data = dataset,  aes(x = lon, y = lat), size = 0.3)+
+      stat_density2d(data=dataset, aes(fill = ..level.., alpha = ..level..), geom="polygon", bins=15) +
+      scale_fill_gradient(low = "green", high = "red")+
+      scale_alpha(range = c(0.1, 0.3), guide = FALSE)
