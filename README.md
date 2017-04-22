@@ -5,6 +5,7 @@ Latest update : 22 April 2017
 
 The [rclinicaltrials R package](https://cran.r-project.org/web/packages/rclinicaltrials/index.html) provides functions to search, explore, and retrieve data from [ClinicalTrials.Gov](https://clinicaltrials.gov/).
 The script [clinicalTrialsGov2R.R](https://github.com/serayamaouche/ClinicalTrials/blob/master/clinicalTrialsGov2R.R) provides an example on how to search and download clinical trials.
+The script [vizClinicalTrials.R](https://github.com/serayamaouche/ClinicalTrials/blob/master/vizClinicalTrials.R) provides an exemple of clinical trials visualization on maps.
 
 
 1- Install rclinicaltrials
